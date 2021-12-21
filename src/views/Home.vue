@@ -137,7 +137,7 @@ export default {
       background-color: rgba(0,0,0,0.6);
       padding: 20px;
       border-radius: 12px;
-      width: 380px;
+      width: 320px;
       margin-top: 50px;
     }
   }
@@ -169,8 +169,14 @@ export default {
     &.no-after::after{
       display:none;
     }
+    img{
+      @media screen and (max-width: 800px) {
+        width: 350px;
+      }
+    }
     @media screen and (max-width: 800px) {
       margin-bottom: 50px;
+      width: 350px;
     }
   }
   @media screen and (max-width: 1080px) {
