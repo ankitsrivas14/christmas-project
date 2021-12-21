@@ -177,6 +177,7 @@ export default {
     @media screen and (max-width: 800px) {
       margin-bottom: 50px;
       width: 350px;
+      height: 496px;
     }
   }
   @media screen and (max-width: 1080px) {
